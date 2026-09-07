@@ -1,0 +1,58 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Govee H7172 Ice Maker",
+        "description": "Set up your Govee H7172 ice maker via Bluetooth",
+        "data": {
+          "address": "Bluetooth address"
+        }
+      },
+      "bluetooth_confirm": {
+        "title": "Confirm Govee H7172",
+        "description": "Set up {name} via Bluetooth?"
+      }
+    },
+    "abort": {
+      "already_configured": "Device already configured",
+      "no_devices_found": "No Govee H7172 devices found"
+    }
+  },
+  "entity": {
+    "sensor": {
+      "work_status": {
+        "name": "Work Status",
+        "state": {
+          "idle": "Idle",
+          "ice_making": "Making Ice",
+          "ice_make_finish": "Ice Ready",
+          "washing": "Washing",
+          "wash_finish": "Wash Complete",
+          "reservation": "Scheduled"
+        }
+      },
+      "mode": {
+        "name": "Ice Size",
+        "state": {
+          "large": "Large",
+          "medium": "Medium",
+          "small": "Small"
+        }
+      },
+      "alarm_code": {
+        "name": "Alarm Code"
+      }
+    },
+    "binary_sensor": {
+      "power": {
+        "name": "Power"
+      },
+      "alarm": {
+        "name": "Alarm (Lack Water)"
+      },
+      "ice_full": {
+        "name": "Ice Tray Full"
+      }
+    }
+  }
+}
