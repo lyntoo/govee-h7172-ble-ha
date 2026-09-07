@@ -1,3 +1,4 @@
+<img width="1547" height="628" alt="Screenshot from 2026-09-07 09-52-12" src="https://github.com/user-attachments/assets/11ef43ab-807d-4556-a451-80a4d4796976" />
 # Govee H7172 Ice Maker (BLE) for Home Assistant
 
 A custom Home Assistant integration for the **Govee H7172** portable ice maker, controlled entirely over **Bluetooth LE** — no cloud, no Wi-Fi, no Govee account required.
